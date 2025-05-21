@@ -2,6 +2,8 @@ body{
     background-color: #161616;
     margin: 64px 112px;
     font-family: "Inter", sans-serif;
+   
+    
 }
 
 
@@ -135,7 +137,7 @@ body{
 
 }
 .box2{
-    width: 594px;
+    width: 569px;
     height: 590px;
     background-color: #1B1B1B;
     border: 2px solid #262626;
@@ -234,9 +236,9 @@ body{
     flex-direction: column;
 }
 .sign{
-    width: 286px;
+    width: 265px;
     height: 149px;
-  background: linear-gradient(#E63E21 ,0.1%  , #1b1b1b);   
+  background: linear-gradient(to top, #1B1B1B 10%, #33130E 200%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -253,13 +255,7 @@ body{
     gap: 20px;
 
 }
-.mid{
-    display: flex;
-    flex-direction: column;
-    gap: 72px;
-    justify-content: center;
-    
-}
+
 .boxa{
     background-color: #1B1B1B;
     border: 2px solid #262626;
@@ -268,6 +264,57 @@ body{
     position: relative;
     height: 529px; 
     margin-top: 20px; 
-    width: 586px;
+    width: 480px;
     
+}
+.mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 72px;
+}
+.exp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bytwo{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+   
+}
+.foot{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+footer{
+    width: 1130px;
+    /* height: 119px; */
+   background: linear-gradient(to bottom, #1B1B1B 10%, #33130E 200%);
+
+   border-radius: 14px;
+    padding: 10px 42px;
+    margin-top: 20px;
+}
+.social{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+
+}
+.soc{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+.ten{
+    color: #C0C0C0;
+    font-size: 24px;
+    font-weight: 500;
 }
