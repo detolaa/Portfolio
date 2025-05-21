@@ -1,0 +1,131 @@
+html, body {
+  height: 1000vh;
+  margin: 0;
+}
+
+body {
+  margin-left: 90px;
+  padding-right: 90px;
+  background-image: url('../Images/bg patterns.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left 90px top 0;
+  border-left: 3px solid black;
+}
+
+.handlee-regular {
+  font-family: "Handlee", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.firstP{
+    font-size: 36px;
+    color: #0c0c0c;
+}
+.secondP{
+    font-size: 24px;
+    color: #0c0c0c;
+    padding: 0;
+    background: linear-gradient(180deg, #fff 60%, #FFC9F0 40%);
+
+    
+
+}
+.logobrand{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+.logobrand1{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+}
+.headnav{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    justify-content: flex-end;
+    margin-bottom: 77px;
+
+}
+.thirdP{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 32px;
+    color: #0c0c0c;
+    background-color: #FFC9F0;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+    width: 105px;
+}
+.girl{
+    display: flex;
+    flex-direction: row;
+    object-fit: contain;
+    height: auto;
+    gap: 32px;
+    align-items: center;
+    transform: rotate(-5.18deg);
+    margin-bottom: 23px;
+    
+}
+.firstH{
+    font-size: 64px;
+    font-weight: 600;
+    color: #0c0c0c;
+}
+.textB{
+    background: linear-gradient(180deg, #fff 60%, #FFC9F0 40%);  
+}
+.firstB{
+    color: #fff;
+    background: #0c0c0c;
+    padding: 18px 58px;
+    font-size: 24px;
+    width: 206px;
+
+
+}
+.hire{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 477px;
+}
+.firstLayer{
+    display: flex;
+    flex-direction: row;
+    gap: 230px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.design{
+    font-size: 24px;
+    color: #0c0c0c;
+    font-weight: 400;
+}
+.what{
+    color: #0c0c0c;
+    background-color: #FFC9F0;
+    font-size: 32px;
+    font-weight: 400;
+    width: 180px;
+}
+.whatdo{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}

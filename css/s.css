@@ -1,0 +1,273 @@
+body{
+    background-color: #161616;
+    margin: 64px 112px;
+    font-family: "Inter", sans-serif;
+}
+
+
+.first{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    color: white;
+}
+.firstL{
+    display: flex;
+    flex-direction: row;
+    gap: 369px;
+    list-style: none;
+    padding: 20px 60px;
+    border: 2px solid #262626;
+    border-radius: 48px;
+    background-color: #1B1B1B;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    background-color: #E63E21;
+    width: 9px;
+    height: 9px;
+    border-radius: 100px;
+}
+.job{
+    color: #C0C0C0;
+    font-size: 13px;
+    font-weight: 500;
+}
+.jobcircle{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    padding: 0px 17px;
+    background-color: #161616;
+    border: 1px solid #262626;
+    border-radius: 30px;
+    width: fit-content;
+}
+.ux{
+    padding: 70px 42px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.ui{
+    font-size: 24px;
+    font-weight: 500;
+    color: #C0C0C0;
+}
+.fh3{
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+
+}
+.firstp{
+    color: #C0C0C0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.btn {
+  background-color: #E63E21;
+  width: fit-content;
+  height: 42px;
+  padding: 0 1rem;
+  border-radius: 7px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  cursor: pointer;
+}
+
+.btn-text {
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+}
+
+.btn-icon {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid black;
+  padding-left: 0.75rem;
+}
+
+.btn-icon .material-symbols-outlined {
+  font-size: 20px;
+  line-height: 1;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bint{
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 42px;
+    padding-right: 42px;
+    align-items: center;
+}
+.box-hero{
+    width: 1130px;
+    margin-top: 20px ;
+    background-color: #1B1B1B;
+    margin-bottom: 20px;
+    padding: 0 42px;
+    padding-bottom: 60px;
+    border-radius: 14px;
+    border: 2px solid #262626;
+
+}
+.box2{
+    width: 594px;
+    height: 590px;
+    background-color: #1B1B1B;
+    border: 2px solid #262626;
+    border-radius: 14px;
+    padding: 60px 40px;
+    overflow: hidden;
+    position: relative;
+    
+}
+.recent{
+    font-size: 24px;
+    font-weight: 500;
+    color: #C0C0C0;
+}
+.cents{
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    align-items: center;
+}
+.pro{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    color: #fff;
+
+}
+.pre{
+    font-size: 20px;
+    font-weight: 400;
+    color: #C0C0C0;
+    margin: 0;
+}
+.duct{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    gap: 12px;
+    
+}
+.line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.figma{
+    font-size: 20px;
+    color: #C0C0C0;
+    font-weight: 400;
+
+}
+.net{
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+
+}
+.work{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.bold{
+    background-color: #E63E21;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    color: white;
+    padding: 10px;
+    
+}
+.mob{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+ 
+}
+.mark{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.phone{
+
+    position: absolute;
+    bottom: -150px;
+     left: 18%;
+}
+.boxy{
+    display: flex;
+    flex-direction: column;
+}
+.sign{
+    width: 286px;
+    height: 149px;
+  background: linear-gradient(#E63E21 ,0.1%  , #1b1b1b);   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 14px;
+}
+.user{
+    font-size: 24px;
+    color: #C0C0C0;
+    text-align: center;
+}
+.lop{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+.mid{
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    justify-content: center;
+    
+}
+.boxa{
+    background-color: #1B1B1B;
+    border: 2px solid #262626;
+    border-radius: 14px;
+    padding: 60px 40px;
+    position: relative;
+    height: 529px; 
+    margin-top: 20px; 
+    width: 586px;
+    
+}
